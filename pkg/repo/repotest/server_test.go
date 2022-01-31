@@ -24,8 +24,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/nbycomp/helm/internal/test/ensure"
+	"github.com/nbycomp/helm/pkg/repo"
 )
 
 // Young'n, in these here parts, we test our tests.

@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/nbycomp/helm/pkg/chart"
+	"github.com/nbycomp/helm/pkg/repo"
 )
 
 func TestSortScore(t *testing.T) {

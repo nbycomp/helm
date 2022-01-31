@@ -28,8 +28,8 @@ import (
 	"github.com/docker/docker/pkg/term"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
+	"github.com/nbycomp/helm/cmd/helm/require"
+	"github.com/nbycomp/helm/pkg/action"
 )
 
 const registryLoginDesc = `

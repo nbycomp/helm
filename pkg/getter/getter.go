@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/pkg/cli"
+	"github.com/nbycomp/helm/internal/experimental/registry"
+	"github.com/nbycomp/helm/pkg/cli"
 )
 
 // options are generic parameters to be provided to the getter during instantiation.

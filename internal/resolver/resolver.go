@@ -26,12 +26,12 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/gates"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/provenance"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/nbycomp/helm/pkg/chart"
+	"github.com/nbycomp/helm/pkg/chart/loader"
+	"github.com/nbycomp/helm/pkg/gates"
+	"github.com/nbycomp/helm/pkg/helmpath"
+	"github.com/nbycomp/helm/pkg/provenance"
+	"github.com/nbycomp/helm/pkg/repo"
 )
 
 const FeatureGateOCI = gates.Gate("HELM_EXPERIMENTAL_OCI")

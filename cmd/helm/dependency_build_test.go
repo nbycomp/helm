@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/provenance"
-	"helm.sh/helm/v3/pkg/repo"
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"github.com/nbycomp/helm/pkg/chartutil"
+	"github.com/nbycomp/helm/pkg/provenance"
+	"github.com/nbycomp/helm/pkg/repo"
+	"github.com/nbycomp/helm/pkg/repo/repotest"
 )
 
 func TestDependencyBuildCmd(t *testing.T) {

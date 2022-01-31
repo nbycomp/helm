@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/lint/support"
+	"github.com/nbycomp/helm/internal/test/ensure"
+	"github.com/nbycomp/helm/pkg/chart"
+	"github.com/nbycomp/helm/pkg/chartutil"
+	"github.com/nbycomp/helm/pkg/lint/support"
 )
 
 const templateTestBasedir = "./testdata/albatross"

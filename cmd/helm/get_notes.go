@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
+	"github.com/nbycomp/helm/cmd/helm/require"
+	"github.com/nbycomp/helm/pkg/action"
 )
 
 var getNotesHelp = `

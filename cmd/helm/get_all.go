@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli/output"
+	"github.com/nbycomp/helm/cmd/helm/require"
+	"github.com/nbycomp/helm/pkg/action"
+	"github.com/nbycomp/helm/pkg/cli/output"
 )
 
 var getAllHelp = `

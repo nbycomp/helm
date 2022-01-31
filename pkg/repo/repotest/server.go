@@ -35,12 +35,12 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"sigs.k8s.io/yaml"
 
-	ociRegistry "helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/internal/tlsutil"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/repo"
+	ociRegistry "github.com/nbycomp/helm/internal/experimental/registry"
+	"github.com/nbycomp/helm/internal/tlsutil"
+	"github.com/nbycomp/helm/pkg/chart"
+	"github.com/nbycomp/helm/pkg/chart/loader"
+	"github.com/nbycomp/helm/pkg/chartutil"
+	"github.com/nbycomp/helm/pkg/repo"
 )
 
 // NewTempServerWithCleanup creates a server inside of a temp dir.

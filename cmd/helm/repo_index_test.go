@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/nbycomp/helm/internal/test/ensure"
+	"github.com/nbycomp/helm/pkg/repo"
 )
 
 func TestRepoIndexCmd(t *testing.T) {

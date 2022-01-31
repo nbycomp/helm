@@ -32,17 +32,17 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/engine"
-	"helm.sh/helm/v3/pkg/kube"
-	"helm.sh/helm/v3/pkg/postrender"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/releaseutil"
-	"helm.sh/helm/v3/pkg/storage"
-	"helm.sh/helm/v3/pkg/storage/driver"
-	"helm.sh/helm/v3/pkg/time"
+	"github.com/nbycomp/helm/internal/experimental/registry"
+	"github.com/nbycomp/helm/pkg/chart"
+	"github.com/nbycomp/helm/pkg/chartutil"
+	"github.com/nbycomp/helm/pkg/engine"
+	"github.com/nbycomp/helm/pkg/kube"
+	"github.com/nbycomp/helm/pkg/postrender"
+	"github.com/nbycomp/helm/pkg/release"
+	"github.com/nbycomp/helm/pkg/releaseutil"
+	"github.com/nbycomp/helm/pkg/storage"
+	"github.com/nbycomp/helm/pkg/storage/driver"
+	"github.com/nbycomp/helm/pkg/time"
 )
 
 // Timestamper is a function capable of producing a timestamp.Timestamper.

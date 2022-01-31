@@ -26,10 +26,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli/values"
-	"helm.sh/helm/v3/pkg/downloader"
-	"helm.sh/helm/v3/pkg/getter"
+	"github.com/nbycomp/helm/pkg/action"
+	"github.com/nbycomp/helm/pkg/cli/values"
+	"github.com/nbycomp/helm/pkg/downloader"
+	"github.com/nbycomp/helm/pkg/getter"
 )
 
 const packageDesc = `

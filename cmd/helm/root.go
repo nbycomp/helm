@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main // import "helm.sh/helm/v3/cmd/helm"
+package main // import "github.com/nbycomp/helm/cmd/helm"
 
 import (
 	"context"
@@ -29,9 +29,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/nbycomp/helm/internal/experimental/registry"
+	"github.com/nbycomp/helm/pkg/action"
+	"github.com/nbycomp/helm/pkg/repo"
 )
 
 var globalUsage = `The Kubernetes package manager

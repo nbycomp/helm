@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main // import "helm.sh/helm/v3/cmd/helm"
+package main // import "github.com/nbycomp/helm/cmd/helm"
 
 import (
 	"fmt"
@@ -29,12 +29,12 @@ import (
 	// Import to initialize client auth plugins.
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/gates"
-	kubefake "helm.sh/helm/v3/pkg/kube/fake"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/storage/driver"
+	"github.com/nbycomp/helm/pkg/action"
+	"github.com/nbycomp/helm/pkg/cli"
+	"github.com/nbycomp/helm/pkg/gates"
+	kubefake "github.com/nbycomp/helm/pkg/kube/fake"
+	"github.com/nbycomp/helm/pkg/release"
+	"github.com/nbycomp/helm/pkg/storage/driver"
 )
 
 // FeatureGateOCI is the feature gate for checking if `helm chart` and `helm registry` commands should work
