@@ -456,6 +456,7 @@ func (i *Install) createRelease(chrt *chart.Chart, rawVals map[string]interface{
 			Status:        release.StatusUnknown,
 		},
 		Version: 1,
+		Labels: chrt.Metadata.Labels,
 	}
 }
 
