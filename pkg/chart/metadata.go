@@ -68,6 +68,9 @@ type Metadata struct {
 	AppVersion string `json:"appVersion,omitempty"`
 	// Whether or not this chart is deprecated
 	Deprecated bool `json:"deprecated,omitempty"`
+	// Labels are the additional mappings uninterpreted by Helm,
+	// made available for filtering on listing.
+	Labels map[string]string
 	// Annotations are additional mappings uninterpreted by Helm,
 	// made available for inspection by other applications.
 	Annotations map[string]string `json:"annotations,omitempty"`
